@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+
+        a {
+            color:  red;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>PERSONALIZANDO LINKS</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UCa_8o-1Ic3xHgmUsyhX4W7Q" target="_blank">youtube</a></li>
+        <li><a href="https://frantzdemelien.com/" target="_blank">site</a></li>
+        
+    </ul>
+</body>
+</html>
