@@ -6,6 +6,16 @@ body {
 
 }
 
+body h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: rgb(209, 19, 19);
+    text-align: center;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.562);
+    margin: auto;
+    width: auto;
+}
+
 header {
     background-color: rgb(250, 247, 246);
     width: auto;
@@ -20,12 +30,27 @@ header > img {
     margin-bottom: 20px;
       width: 180px;
       margin-left: 30px;
-      
+         
+}
 
-      
+a > img {
+    width: 250px;
+    
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    
+    
     
     
 }
+
+
+
+
 
 
 
@@ -40,17 +65,43 @@ div > nav {
 nav > a {
     background-color: rgba(145, 9, 9, 0.384);
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.158);;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
     font-weight: bolder;
     padding: 10px;
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin:1px;
+        
+}
+
+
+
+nav a:hover {
+    background-color: #707070;
+    text-decoration: none;
+
+}
+
+
+
+div.quadrado1 {
+    margin: auto;
+    border-top: 2px solid red;
+    border-radius: 0%;
+    background-color: lightgray;
+    width: 1000px;
+    height: 300px;
     
 }
 
-nav > a:hover {background-color: #707070;
+div.rectangulo {
+    margin: auto;
+    padding-left: 25px;
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    
 
 }
 
@@ -69,12 +120,13 @@ article > h1 h2 p {
 }
 
 article > h1 {
-    font-family: cursive;
-    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
 }
 
 article > a {
-    color: blue;
+    color: rgb(65, 65, 65);
+    text-decoration: none;
 }
     
 
