@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'bebas'; 
+}
+
+body {
+    height: 900vh;  /* é tamanho 100% da tela*/
+}
+
+nav.menu-lateral {
+    width: 65px;
+    height: 1000%;
+    background-color: #383939;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 rgb(21, 142, 255);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+
+nav.menu-lateral:hover {
+    width: 300px;
+
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+}
+.btn-expandir > i {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ul {
+   height: 100%;
+   list-style-type: none;
+}
+
+ul li.item-menu a {
+    color: rgb(252, 244, 244);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;      /*para dar espaçamento dos items*/
+    margin-bottom: 20px;
+    line-height: 40px;   /*é para alinhar os items*/
+
+}
+
+ul li.item-menu:hover {
+    background-color: rgb(21, 142, 255);
+
+}
+
+ul li.item-menu {
+    transition: 2s;     
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 20px;
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
