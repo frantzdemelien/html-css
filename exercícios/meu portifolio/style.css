@@ -1,0 +1,279 @@
+
+:root{
+    --cor01: #421604;
+    --cor02: #1f0901;
+    --font-family: "Poppins", sans-serif;
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration:none;
+    border: none;
+}
+
+section{
+    padding: 3rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+body{
+    background-color: var(--cor02);
+    font-family: var(--font-family);
+}
+
+.cabeçalho{
+    background-color: var(--cor01);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 99%;
+    border-bottom: solid 1px rgb(255, 244, 244);
+}
+
+.logo img{
+    width: 90px;
+}
+
+.logo img:hover{
+    cursor: pointer;
+    width: 92px;
+    transition: 0.2;
+
+}
+
+
+.cabeçalho section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+
+.navbar a {
+    margin: 0 2.5rem;
+    color: white;
+    font-size: 1.rem;
+    cursor: pointer;
+
+}
+
+.navbar a:hover{
+    color: #d89f01;
+    font-size: 1.2rem;
+    transition: 0.2s;
+}
+
+.icons img{
+    margin: 15px;
+    margin-right: 30px;
+    width: 20px;
+    cursor: pointer;
+
+
+}
+
+.icons img:hover{
+    color: #d89f01;
+    width: 25px;
+    transition: 0.2s;
+}
+
+.btn{
+    background-color: #d89f01;
+    color: white;
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn:hover{
+    font-size: 1rem;
+    background-color: #b13704;
+    transition: 1s;
+    
+
+}
+
+.home-container{
+    background: url("imagen/pizza-1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    border-bottom: 1px solid #ffffff;
+    
+
+
+
+}
+
+.home-container section{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    margin-bottom: -150px;
+}
+
+.content{
+    max-width: 100rem;
+}
+
+.content h1{
+    font-family: var(--font-family);
+    font-size: 55px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.664);
+}
+
+.content p{
+    font-family: var(--font-family);
+    font-size: 20px;
+    color:#fac83f;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.986);
+
+}
+
+/*sector do hamburguer*/
+
+.title{
+    align-items: center;
+    font-size: 2.3em;
+    color: #d89f01;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+
+}
+
+
+.title span{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10;
+}
+
+.about .row{
+    display: block;
+    align-items: center;
+    background-color: #1d1c1c2a;
+    gap: 1.5rem;
+    margin-top: 0%;
+
+
+}
+
+.container-image img{
+      display: inline-flex;
+      align-content: space-evenly;
+      padding-top: -90px;
+      border-radius: 12px;
+      gap: 50rem;
+      height: 200px;
+      border: 1px solid #4b3700;
+      
+}
+.about .title{
+    display: grid;
+    align-items: center;
+}
+
+.about .row .content h2{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+
+.about .row .content p{
+    color:#d89f01;
+    font-size: 15px;
+    align-items: center;
+}
+
+.about .content .btn{
+    background-color: #d89f01;
+    color: white;
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.about .content .btn:hover{
+    font-size: 1rem;
+    background-color: #b13704;
+    transition: 1s;
+}
+
+/*Sector do menu*/
+
+.menu{
+    background-color: #1d1c1c2a;
+    
+}
+
+.box-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    align-items: center;
+    margin-top: -350px;
+    margin-left: 180px;
+    
+}
+
+.menu-title h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #d89f01;
+    font-size: 3rem;
+}
+
+.menu-title span{
+    color: #ffffff;
+}
+
+
+
+.menu .box-container .box img{
+    height: 12rem;
+    border-radius: 10px;
+    border: 1px solid #4b3700;
+    
+}
+
+
+.menu .box-container .box h3{
+    color: #d89f01;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.menu .box-container .box .price{
+    color: #ffffff;
+}
+
+.menu .box-container .box span{
+    color: #b13704;
+    text-decoration: line-through;
+    font-size: 0.5rem;
+}
+
+    
+
