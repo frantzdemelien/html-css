@@ -22,6 +22,14 @@ table{
     cursor: pointer;
 }
 
+caption{
+    font-size: 40px;
+    color: white;
+    background-color: #023966;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
 td, tr, th{
      border: 1px solid black;
      
@@ -53,7 +61,7 @@ img{
 
 
 thead, tfoot{
-    background-color: rgb(8, 101, 177);
+    background-color: #0865b1;
     border: 1px solid black;
 }
 
