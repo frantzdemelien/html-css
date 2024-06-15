@@ -70,6 +70,7 @@ body{
     transition: 0.2s;
 }
 
+
 .icons img{
     margin: 15px;
     margin-right: 30px;
@@ -153,7 +154,9 @@ body{
     color: #d89f01;
     text-align: center;
     text-transform: uppercase;
-    padding-bottom: 25px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    margin-right: 150px;
 
 }
 
@@ -162,36 +165,37 @@ body{
     color: white;
     text-transform: uppercase;
     margin-bottom: 10;
+    
 }
 
 .about .row{
-    display: block;
+    display: inline-block;
     align-items: center;
     background-color: #1d1c1c2a;
-    gap: 1.5rem;
-    margin-top: 0%;
+    gap: 20px;
+    margin-left: 150px;
 
 
 }
 
 .container-image img{
-      display: inline-flex;
-      align-content: space-evenly;
+      display: inline-block;
+      align-items: center;
       padding-top: -90px;
       border-radius: 12px;
-      gap: 50rem;
-      height: 200px;
-      border: 1px solid #4b3700;
+      height: 250px;
+      border: 2px solid #836001;
       
 }
 .about .title{
-    display: grid;
+    display: -moz-inline-grid;
     align-items: center;
 }
 
 .about .row .content h2{
     color: white;
     font-size: 20px;
+    margin-top: 10px;
     padding-bottom: 10px;
 
 }
@@ -222,25 +226,20 @@ body{
 
 /*Sector do menu*/
 
-.menu{
-    background-color: #1d1c1c2a;
-    
-}
 
 .box-container{
     display:grid;
     grid-template-columns: auto auto auto;
-    gap: 20px;
     align-items: center;
-    margin-top: -350px;
-    margin-left: 180px;
+    margin-top: 10px;
+    margin-left: 100px;
     
 }
 
 .menu-title h2{
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     color: #d89f01;
     font-size: 3rem;
 }
@@ -252,28 +251,183 @@ body{
 
 
 .menu .box-container .box img{
-    height: 12rem;
-    border-radius: 10px;
-    border: 1px solid #4b3700;
+    height: 16rem;
+    border-radius: 15px;
+    border: 3px solid #a07603;
+    cursor: pointer;
     
 }
+
+.box-container .box img:hover{ 
+    border: 3px solid #ffffff;
+    height: 16.0rem;
+    transition: 0.6s;
+}
+
+
 
 
 .menu .box-container .box h3{
     color: #d89f01;
     font-size: 1rem;
+    text-align: center;
     padding: 1rem;
+    margin-right: 40px;
 }
 
 .menu .box-container .box .price{
     color: #ffffff;
+    text-align: center;
+    margin-right: 20px;
 }
 
 .menu .box-container .box span{
     color: #b13704;
     text-decoration: line-through;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 
+.btn{
+    text-align: center;
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+
+/*section cliente*/
+
+.review{
+    margin-left: 450px;
+    display: inline-block;
+    align-items: center;
+
+}
+.box-container-clientes{
+    display: inline-block;
+    align-items: center;
+    border: 20px;
+    border: 2px solid #a07603;
+    margin-top: 10px;
+    margin: 5px;
+    max-width: 300px;
+}
+
+
+.box-container-clientes .box-img{
+    margin-left: 50px;
+    border-radius: 50%;
+    
+    
+}
+
+.box-container-clientes >img{
+    margin-left: 120px;
+    margin-top: 50px;
+    border-radius: 50%;
+    
+}
+
+.box-container-clientes .icons-clientes{
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.review h1{
+    font-size: 35px;
+    text-align: center;
+    color: #fac83f;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.review span{
+    color: #ffffff;
+}
+
+.box-img > h3{
+    color: #d89f01;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.review .box-container-clientes > p{
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+    
+/*sectore address*/
+
+.address {
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.mapa  .mapa-cafe{
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 10px;
+   
+}
+
+.mapa-cafe{
+    border: 2px solid #d89f01;
+    margin-right: 245px;
+    margin-top: 20px;
+    
+}
+
+.mapa >h2{
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+/*sectore rodapé*/
+
+.footer{
+    background-color: #b13704;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+
+.share{
+    display: inline-block;
+    margin-left: 1300px;
     
 
+        
+}
+
+.share img{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.footer h3{
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    padding-top: 10px;
+    margin-bottom: -35px;
+
+}
+
+.footer span{
+    color: #fac83f;
+    
+}
